@@ -1,0 +1,16 @@
+# General
+node_modules
+*.retry
+
+# Sensitive data
+.env
+**/*.ca
+**/*.key
+**/*.crt
+local.env
+
+# Test
+coverage/
+
+# Logs
+*.log
